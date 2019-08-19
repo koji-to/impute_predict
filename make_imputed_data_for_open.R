@@ -57,7 +57,6 @@ for(j in 1:iteration){
     write.csv(out_fit_imp.df,paste("DA/fit_",trans,"_DA_imp_0",i-1,"_0",j-1,".csv",sep=""),row.names=F)
   }
 }
-##0i_0jの各jについて統合（0<=i<10を統合）
 
 #### MICE ####
 library(mice)
